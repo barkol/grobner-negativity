@@ -1,0 +1,41 @@
+# Secrets
+apikey.json
+*.secret
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large data (raw IBM jobs)
+data/IBM Torino/job-*
+data/IBM Kingston/results_ibm_kingston_mu_*
+
+# Compiled LaTeX
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk

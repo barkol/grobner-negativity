@@ -1,0 +1,78 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "negativity-si"
+version = "2.0.0"
+description = "Supplementary code for: Spin chirality across quantum state copies detects hidden entanglement"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Patrycja Tulewicz"},
+    {name = "Karol Bartkiewicz", email = "karol.bartkiewicz@amu.edu.pl"},
+]
+keywords = [
+    "quantum computing",
+    "quantum information",
+    "entanglement",
+    "negativity",
+    "bound entanglement",
+    "chirality",
+    "IBM Quantum",
+    "qiskit",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.21.0",
+    "scipy>=1.7.0",
+    "qiskit>=1.0.0",
+    "qiskit-aer>=0.13.0",
+]
+
+[project.optional-dependencies]
+ibm = [
+    "qiskit-ibm-runtime>=0.20.0",
+    "mthree>=2.0.0",
+]
+ml = [
+    "scikit-learn>=1.0.0",
+    "matplotlib>=3.5.0",
+]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+]
+all = [
+    "negativity-si[ibm,ml,dev]",
+]
+
+[project.urls]
+Repository = "https://github.com/barkol/grobner-negativity"
+
+[project.scripts]
+negativity-validate = "negativity_si.validation:run_validation"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["negativity_si*"]
+
+[tool.setuptools.package-data]
+negativity_si = ["data/*.csv", "data/**/*.csv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v"

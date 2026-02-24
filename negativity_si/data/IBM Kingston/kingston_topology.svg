@@ -1,0 +1,528 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 720">
+<defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa"/>
+      <stop offset="100%" style="stop-color:#eef1f4"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+<style>
+  .qubit { stroke: #495057; stroke-width: 1.5; filter: url(#shadow); }
+  .deg1 { fill: #e63946; }
+  .deg2 { fill: #457b9d; }
+  .deg3 { fill: #2a9d8f; }
+  .edge { stroke: #adb5bd; stroke-width: 1.8; fill: none; stroke-linecap: round; }
+  .label { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 7px; fill: white; text-anchor: middle; dominant-baseline: central; font-weight: 600; }
+  .title { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 18px; fill: #212529; font-weight: 600; }
+  .subtitle { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 12px; fill: #6c757d; }
+  .legend-text { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10px; fill: #495057; }
+  .stats-text { font-family: "Helvetica Neue", Arial, sans-serif; font-size: 10px; fill: #6c757d; }
+</style>
+<rect width="920" height="720" fill="url(#bgGrad)"/>
+<text x="460" y="28" class="title" text-anchor="middle">IBM Kingston Processor Topology</text>
+<text x="460" y="46" class="subtitle" text-anchor="middle">156-Qubit Heavy-Hex Lattice · Heron Architecture</text>
+<line x1="70.0" y1="85.0" x2="122.0" y2="85.0" class="edge"/>
+<line x1="122.0" y1="85.0" x2="174.0" y2="85.0" class="edge"/>
+<line x1="174.0" y1="85.0" x2="226.0" y2="85.0" class="edge"/>
+<line x1="226.0" y1="85.0" x2="278.0" y2="85.0" class="edge"/>
+<line x1="226.0" y1="85.0" x2="226.0" y2="125.0" class="edge"/>
+<line x1="278.0" y1="85.0" x2="330.0" y2="85.0" class="edge"/>
+<line x1="330.0" y1="85.0" x2="382.0" y2="85.0" class="edge"/>
+<line x1="382.0" y1="85.0" x2="434.0" y2="85.0" class="edge"/>
+<line x1="434.0" y1="85.0" x2="486.0" y2="85.0" class="edge"/>
+<line x1="434.0" y1="85.0" x2="434.0" y2="125.0" class="edge"/>
+<line x1="486.0" y1="85.0" x2="538.0" y2="85.0" class="edge"/>
+<line x1="538.0" y1="85.0" x2="590.0" y2="85.0" class="edge"/>
+<line x1="590.0" y1="85.0" x2="642.0" y2="85.0" class="edge"/>
+<line x1="642.0" y1="85.0" x2="694.0" y2="85.0" class="edge"/>
+<line x1="642.0" y1="85.0" x2="642.0" y2="125.0" class="edge"/>
+<line x1="694.0" y1="85.0" x2="746.0" y2="85.0" class="edge"/>
+<line x1="746.0" y1="85.0" x2="798.0" y2="85.0" class="edge"/>
+<line x1="798.0" y1="85.0" x2="850.0" y2="85.0" class="edge"/>
+<line x1="850.0" y1="85.0" x2="850.0" y2="125.0" class="edge"/>
+<line x1="226.0" y1="125.0" x2="226.0" y2="165.0" class="edge"/>
+<line x1="434.0" y1="125.0" x2="434.0" y2="165.0" class="edge"/>
+<line x1="642.0" y1="125.0" x2="642.0" y2="165.0" class="edge"/>
+<line x1="850.0" y1="125.0" x2="850.0" y2="165.0" class="edge"/>
+<line x1="70.0" y1="165.0" x2="122.0" y2="165.0" class="edge"/>
+<line x1="122.0" y1="165.0" x2="174.0" y2="165.0" class="edge"/>
+<line x1="122.0" y1="165.0" x2="122.0" y2="205.0" class="edge"/>
+<line x1="174.0" y1="165.0" x2="226.0" y2="165.0" class="edge"/>
+<line x1="226.0" y1="165.0" x2="278.0" y2="165.0" class="edge"/>
+<line x1="278.0" y1="165.0" x2="330.0" y2="165.0" class="edge"/>
+<line x1="330.0" y1="165.0" x2="382.0" y2="165.0" class="edge"/>
+<line x1="330.0" y1="165.0" x2="330.0" y2="205.0" class="edge"/>
+<line x1="382.0" y1="165.0" x2="434.0" y2="165.0" class="edge"/>
+<line x1="434.0" y1="165.0" x2="486.0" y2="165.0" class="edge"/>
+<line x1="486.0" y1="165.0" x2="538.0" y2="165.0" class="edge"/>
+<line x1="538.0" y1="165.0" x2="590.0" y2="165.0" class="edge"/>
+<line x1="538.0" y1="165.0" x2="538.0" y2="205.0" class="edge"/>
+<line x1="590.0" y1="165.0" x2="642.0" y2="165.0" class="edge"/>
+<line x1="642.0" y1="165.0" x2="694.0" y2="165.0" class="edge"/>
+<line x1="694.0" y1="165.0" x2="746.0" y2="165.0" class="edge"/>
+<line x1="746.0" y1="165.0" x2="798.0" y2="165.0" class="edge"/>
+<line x1="746.0" y1="165.0" x2="746.0" y2="205.0" class="edge"/>
+<line x1="798.0" y1="165.0" x2="850.0" y2="165.0" class="edge"/>
+<line x1="122.0" y1="205.0" x2="122.0" y2="245.0" class="edge"/>
+<line x1="330.0" y1="205.0" x2="330.0" y2="245.0" class="edge"/>
+<line x1="538.0" y1="205.0" x2="538.0" y2="245.0" class="edge"/>
+<line x1="746.0" y1="205.0" x2="746.0" y2="245.0" class="edge"/>
+<line x1="70.0" y1="245.0" x2="122.0" y2="245.0" class="edge"/>
+<line x1="122.0" y1="245.0" x2="174.0" y2="245.0" class="edge"/>
+<line x1="174.0" y1="245.0" x2="226.0" y2="245.0" class="edge"/>
+<line x1="226.0" y1="245.0" x2="278.0" y2="245.0" class="edge"/>
+<line x1="226.0" y1="245.0" x2="226.0" y2="285.0" class="edge"/>
+<line x1="278.0" y1="245.0" x2="330.0" y2="245.0" class="edge"/>
+<line x1="330.0" y1="245.0" x2="382.0" y2="245.0" class="edge"/>
+<line x1="382.0" y1="245.0" x2="434.0" y2="245.0" class="edge"/>
+<line x1="434.0" y1="245.0" x2="486.0" y2="245.0" class="edge"/>
+<line x1="434.0" y1="245.0" x2="434.0" y2="285.0" class="edge"/>
+<line x1="486.0" y1="245.0" x2="538.0" y2="245.0" class="edge"/>
+<line x1="538.0" y1="245.0" x2="590.0" y2="245.0" class="edge"/>
+<line x1="590.0" y1="245.0" x2="642.0" y2="245.0" class="edge"/>
+<line x1="642.0" y1="245.0" x2="694.0" y2="245.0" class="edge"/>
+<line x1="642.0" y1="245.0" x2="642.0" y2="285.0" class="edge"/>
+<line x1="694.0" y1="245.0" x2="746.0" y2="245.0" class="edge"/>
+<line x1="746.0" y1="245.0" x2="798.0" y2="245.0" class="edge"/>
+<line x1="798.0" y1="245.0" x2="850.0" y2="245.0" class="edge"/>
+<line x1="850.0" y1="245.0" x2="850.0" y2="285.0" class="edge"/>
+<line x1="226.0" y1="285.0" x2="226.0" y2="325.0" class="edge"/>
+<line x1="434.0" y1="285.0" x2="434.0" y2="325.0" class="edge"/>
+<line x1="642.0" y1="285.0" x2="642.0" y2="325.0" class="edge"/>
+<line x1="850.0" y1="285.0" x2="850.0" y2="325.0" class="edge"/>
+<line x1="70.0" y1="325.0" x2="122.0" y2="325.0" class="edge"/>
+<line x1="122.0" y1="325.0" x2="174.0" y2="325.0" class="edge"/>
+<line x1="122.0" y1="325.0" x2="122.0" y2="365.0" class="edge"/>
+<line x1="174.0" y1="325.0" x2="226.0" y2="325.0" class="edge"/>
+<line x1="226.0" y1="325.0" x2="278.0" y2="325.0" class="edge"/>
+<line x1="278.0" y1="325.0" x2="330.0" y2="325.0" class="edge"/>
+<line x1="330.0" y1="325.0" x2="382.0" y2="325.0" class="edge"/>
+<line x1="330.0" y1="325.0" x2="330.0" y2="365.0" class="edge"/>
+<line x1="382.0" y1="325.0" x2="434.0" y2="325.0" class="edge"/>
+<line x1="434.0" y1="325.0" x2="486.0" y2="325.0" class="edge"/>
+<line x1="486.0" y1="325.0" x2="538.0" y2="325.0" class="edge"/>
+<line x1="538.0" y1="325.0" x2="590.0" y2="325.0" class="edge"/>
+<line x1="538.0" y1="325.0" x2="538.0" y2="365.0" class="edge"/>
+<line x1="590.0" y1="325.0" x2="642.0" y2="325.0" class="edge"/>
+<line x1="642.0" y1="325.0" x2="694.0" y2="325.0" class="edge"/>
+<line x1="694.0" y1="325.0" x2="746.0" y2="325.0" class="edge"/>
+<line x1="746.0" y1="325.0" x2="798.0" y2="325.0" class="edge"/>
+<line x1="746.0" y1="325.0" x2="746.0" y2="365.0" class="edge"/>
+<line x1="798.0" y1="325.0" x2="850.0" y2="325.0" class="edge"/>
+<line x1="122.0" y1="365.0" x2="122.0" y2="405.0" class="edge"/>
+<line x1="330.0" y1="365.0" x2="330.0" y2="405.0" class="edge"/>
+<line x1="538.0" y1="365.0" x2="538.0" y2="405.0" class="edge"/>
+<line x1="746.0" y1="365.0" x2="746.0" y2="405.0" class="edge"/>
+<line x1="70.0" y1="405.0" x2="122.0" y2="405.0" class="edge"/>
+<line x1="122.0" y1="405.0" x2="174.0" y2="405.0" class="edge"/>
+<line x1="174.0" y1="405.0" x2="226.0" y2="405.0" class="edge"/>
+<line x1="226.0" y1="405.0" x2="278.0" y2="405.0" class="edge"/>
+<line x1="226.0" y1="405.0" x2="226.0" y2="445.0" class="edge"/>
+<line x1="278.0" y1="405.0" x2="330.0" y2="405.0" class="edge"/>
+<line x1="330.0" y1="405.0" x2="382.0" y2="405.0" class="edge"/>
+<line x1="382.0" y1="405.0" x2="434.0" y2="405.0" class="edge"/>
+<line x1="434.0" y1="405.0" x2="486.0" y2="405.0" class="edge"/>
+<line x1="434.0" y1="405.0" x2="434.0" y2="445.0" class="edge"/>
+<line x1="486.0" y1="405.0" x2="538.0" y2="405.0" class="edge"/>
+<line x1="538.0" y1="405.0" x2="590.0" y2="405.0" class="edge"/>
+<line x1="590.0" y1="405.0" x2="642.0" y2="405.0" class="edge"/>
+<line x1="642.0" y1="405.0" x2="694.0" y2="405.0" class="edge"/>
+<line x1="642.0" y1="405.0" x2="642.0" y2="445.0" class="edge"/>
+<line x1="694.0" y1="405.0" x2="746.0" y2="405.0" class="edge"/>
+<line x1="746.0" y1="405.0" x2="798.0" y2="405.0" class="edge"/>
+<line x1="798.0" y1="405.0" x2="850.0" y2="405.0" class="edge"/>
+<line x1="850.0" y1="405.0" x2="850.0" y2="445.0" class="edge"/>
+<line x1="226.0" y1="445.0" x2="226.0" y2="485.0" class="edge"/>
+<line x1="434.0" y1="445.0" x2="434.0" y2="485.0" class="edge"/>
+<line x1="642.0" y1="445.0" x2="642.0" y2="485.0" class="edge"/>
+<line x1="850.0" y1="445.0" x2="850.0" y2="485.0" class="edge"/>
+<line x1="70.0" y1="485.0" x2="122.0" y2="485.0" class="edge"/>
+<line x1="122.0" y1="485.0" x2="174.0" y2="485.0" class="edge"/>
+<line x1="122.0" y1="485.0" x2="122.0" y2="525.0" class="edge"/>
+<line x1="174.0" y1="485.0" x2="226.0" y2="485.0" class="edge"/>
+<line x1="226.0" y1="485.0" x2="278.0" y2="485.0" class="edge"/>
+<line x1="278.0" y1="485.0" x2="330.0" y2="485.0" class="edge"/>
+<line x1="330.0" y1="485.0" x2="382.0" y2="485.0" class="edge"/>
+<line x1="330.0" y1="485.0" x2="330.0" y2="525.0" class="edge"/>
+<line x1="382.0" y1="485.0" x2="434.0" y2="485.0" class="edge"/>
+<line x1="434.0" y1="485.0" x2="486.0" y2="485.0" class="edge"/>
+<line x1="486.0" y1="485.0" x2="538.0" y2="485.0" class="edge"/>
+<line x1="538.0" y1="485.0" x2="590.0" y2="485.0" class="edge"/>
+<line x1="538.0" y1="485.0" x2="538.0" y2="525.0" class="edge"/>
+<line x1="590.0" y1="485.0" x2="642.0" y2="485.0" class="edge"/>
+<line x1="642.0" y1="485.0" x2="694.0" y2="485.0" class="edge"/>
+<line x1="694.0" y1="485.0" x2="746.0" y2="485.0" class="edge"/>
+<line x1="746.0" y1="485.0" x2="798.0" y2="485.0" class="edge"/>
+<line x1="746.0" y1="485.0" x2="746.0" y2="525.0" class="edge"/>
+<line x1="798.0" y1="485.0" x2="850.0" y2="485.0" class="edge"/>
+<line x1="122.0" y1="525.0" x2="122.0" y2="565.0" class="edge"/>
+<line x1="330.0" y1="525.0" x2="330.0" y2="565.0" class="edge"/>
+<line x1="538.0" y1="525.0" x2="538.0" y2="565.0" class="edge"/>
+<line x1="746.0" y1="525.0" x2="746.0" y2="565.0" class="edge"/>
+<line x1="70.0" y1="565.0" x2="122.0" y2="565.0" class="edge"/>
+<line x1="122.0" y1="565.0" x2="174.0" y2="565.0" class="edge"/>
+<line x1="174.0" y1="565.0" x2="226.0" y2="565.0" class="edge"/>
+<line x1="226.0" y1="565.0" x2="278.0" y2="565.0" class="edge"/>
+<line x1="226.0" y1="565.0" x2="226.0" y2="605.0" class="edge"/>
+<line x1="278.0" y1="565.0" x2="330.0" y2="565.0" class="edge"/>
+<line x1="330.0" y1="565.0" x2="382.0" y2="565.0" class="edge"/>
+<line x1="382.0" y1="565.0" x2="434.0" y2="565.0" class="edge"/>
+<line x1="434.0" y1="565.0" x2="486.0" y2="565.0" class="edge"/>
+<line x1="434.0" y1="565.0" x2="434.0" y2="605.0" class="edge"/>
+<line x1="486.0" y1="565.0" x2="538.0" y2="565.0" class="edge"/>
+<line x1="538.0" y1="565.0" x2="590.0" y2="565.0" class="edge"/>
+<line x1="590.0" y1="565.0" x2="642.0" y2="565.0" class="edge"/>
+<line x1="642.0" y1="565.0" x2="694.0" y2="565.0" class="edge"/>
+<line x1="642.0" y1="565.0" x2="642.0" y2="605.0" class="edge"/>
+<line x1="694.0" y1="565.0" x2="746.0" y2="565.0" class="edge"/>
+<line x1="746.0" y1="565.0" x2="798.0" y2="565.0" class="edge"/>
+<line x1="798.0" y1="565.0" x2="850.0" y2="565.0" class="edge"/>
+<line x1="850.0" y1="565.0" x2="850.0" y2="605.0" class="edge"/>
+<line x1="226.0" y1="605.0" x2="226.0" y2="645.0" class="edge"/>
+<line x1="434.0" y1="605.0" x2="434.0" y2="645.0" class="edge"/>
+<line x1="642.0" y1="605.0" x2="642.0" y2="645.0" class="edge"/>
+<line x1="850.0" y1="605.0" x2="850.0" y2="645.0" class="edge"/>
+<line x1="70.0" y1="645.0" x2="122.0" y2="645.0" class="edge"/>
+<line x1="122.0" y1="645.0" x2="174.0" y2="645.0" class="edge"/>
+<line x1="174.0" y1="645.0" x2="226.0" y2="645.0" class="edge"/>
+<line x1="226.0" y1="645.0" x2="278.0" y2="645.0" class="edge"/>
+<line x1="278.0" y1="645.0" x2="330.0" y2="645.0" class="edge"/>
+<line x1="330.0" y1="645.0" x2="382.0" y2="645.0" class="edge"/>
+<line x1="382.0" y1="645.0" x2="434.0" y2="645.0" class="edge"/>
+<line x1="434.0" y1="645.0" x2="486.0" y2="645.0" class="edge"/>
+<line x1="486.0" y1="645.0" x2="538.0" y2="645.0" class="edge"/>
+<line x1="538.0" y1="645.0" x2="590.0" y2="645.0" class="edge"/>
+<line x1="590.0" y1="645.0" x2="642.0" y2="645.0" class="edge"/>
+<line x1="642.0" y1="645.0" x2="694.0" y2="645.0" class="edge"/>
+<line x1="694.0" y1="645.0" x2="746.0" y2="645.0" class="edge"/>
+<line x1="746.0" y1="645.0" x2="798.0" y2="645.0" class="edge"/>
+<line x1="798.0" y1="645.0" x2="850.0" y2="645.0" class="edge"/>
+<circle cx="70.0" cy="85.0" r="9" class="qubit deg1"/>
+<text x="70.0" y="85.0" class="label">0</text>
+<circle cx="122.0" cy="85.0" r="9" class="qubit deg2"/>
+<text x="122.0" y="85.0" class="label">1</text>
+<circle cx="174.0" cy="85.0" r="9" class="qubit deg2"/>
+<text x="174.0" y="85.0" class="label">2</text>
+<circle cx="226.0" cy="85.0" r="11" class="qubit deg3"/>
+<text x="226.0" y="85.0" class="label">3</text>
+<circle cx="278.0" cy="85.0" r="9" class="qubit deg2"/>
+<text x="278.0" y="85.0" class="label">4</text>
+<circle cx="330.0" cy="85.0" r="9" class="qubit deg2"/>
+<text x="330.0" y="85.0" class="label">5</text>
+<circle cx="382.0" cy="85.0" r="9" class="qubit deg2"/>
+<text x="382.0" y="85.0" class="label">6</text>
+<circle cx="434.0" cy="85.0" r="11" class="qubit deg3"/>
+<text x="434.0" y="85.0" class="label">7</text>
+<circle cx="486.0" cy="85.0" r="9" class="qubit deg2"/>
+<text x="486.0" y="85.0" class="label">8</text>
+<circle cx="538.0" cy="85.0" r="9" class="qubit deg2"/>
+<text x="538.0" y="85.0" class="label">9</text>
+<circle cx="590.0" cy="85.0" r="9" class="qubit deg2"/>
+<text x="590.0" y="85.0" class="label">10</text>
+<circle cx="642.0" cy="85.0" r="11" class="qubit deg3"/>
+<text x="642.0" y="85.0" class="label">11</text>
+<circle cx="694.0" cy="85.0" r="9" class="qubit deg2"/>
+<text x="694.0" y="85.0" class="label">12</text>
+<circle cx="746.0" cy="85.0" r="9" class="qubit deg2"/>
+<text x="746.0" y="85.0" class="label">13</text>
+<circle cx="798.0" cy="85.0" r="9" class="qubit deg2"/>
+<text x="798.0" y="85.0" class="label">14</text>
+<circle cx="850.0" cy="85.0" r="9" class="qubit deg2"/>
+<text x="850.0" y="85.0" class="label">15</text>
+<circle cx="226.0" cy="125.0" r="9" class="qubit deg2"/>
+<text x="226.0" y="125.0" class="label">16</text>
+<circle cx="434.0" cy="125.0" r="9" class="qubit deg2"/>
+<text x="434.0" y="125.0" class="label">17</text>
+<circle cx="642.0" cy="125.0" r="9" class="qubit deg2"/>
+<text x="642.0" y="125.0" class="label">18</text>
+<circle cx="850.0" cy="125.0" r="9" class="qubit deg2"/>
+<text x="850.0" y="125.0" class="label">19</text>
+<circle cx="70.0" cy="165.0" r="9" class="qubit deg1"/>
+<text x="70.0" y="165.0" class="label">20</text>
+<circle cx="122.0" cy="165.0" r="11" class="qubit deg3"/>
+<text x="122.0" y="165.0" class="label">21</text>
+<circle cx="174.0" cy="165.0" r="9" class="qubit deg2"/>
+<text x="174.0" y="165.0" class="label">22</text>
+<circle cx="226.0" cy="165.0" r="11" class="qubit deg3"/>
+<text x="226.0" y="165.0" class="label">23</text>
+<circle cx="278.0" cy="165.0" r="9" class="qubit deg2"/>
+<text x="278.0" y="165.0" class="label">24</text>
+<circle cx="330.0" cy="165.0" r="11" class="qubit deg3"/>
+<text x="330.0" y="165.0" class="label">25</text>
+<circle cx="382.0" cy="165.0" r="9" class="qubit deg2"/>
+<text x="382.0" y="165.0" class="label">26</text>
+<circle cx="434.0" cy="165.0" r="11" class="qubit deg3"/>
+<text x="434.0" y="165.0" class="label">27</text>
+<circle cx="486.0" cy="165.0" r="9" class="qubit deg2"/>
+<text x="486.0" y="165.0" class="label">28</text>
+<circle cx="538.0" cy="165.0" r="11" class="qubit deg3"/>
+<text x="538.0" y="165.0" class="label">29</text>
+<circle cx="590.0" cy="165.0" r="9" class="qubit deg2"/>
+<text x="590.0" y="165.0" class="label">30</text>
+<circle cx="642.0" cy="165.0" r="11" class="qubit deg3"/>
+<text x="642.0" y="165.0" class="label">31</text>
+<circle cx="694.0" cy="165.0" r="9" class="qubit deg2"/>
+<text x="694.0" y="165.0" class="label">32</text>
+<circle cx="746.0" cy="165.0" r="11" class="qubit deg3"/>
+<text x="746.0" y="165.0" class="label">33</text>
+<circle cx="798.0" cy="165.0" r="9" class="qubit deg2"/>
+<text x="798.0" y="165.0" class="label">34</text>
+<circle cx="850.0" cy="165.0" r="9" class="qubit deg2"/>
+<text x="850.0" y="165.0" class="label">35</text>
+<circle cx="122.0" cy="205.0" r="9" class="qubit deg2"/>
+<text x="122.0" y="205.0" class="label">36</text>
+<circle cx="330.0" cy="205.0" r="9" class="qubit deg2"/>
+<text x="330.0" y="205.0" class="label">37</text>
+<circle cx="538.0" cy="205.0" r="9" class="qubit deg2"/>
+<text x="538.0" y="205.0" class="label">38</text>
+<circle cx="746.0" cy="205.0" r="9" class="qubit deg2"/>
+<text x="746.0" y="205.0" class="label">39</text>
+<circle cx="70.0" cy="245.0" r="9" class="qubit deg1"/>
+<text x="70.0" y="245.0" class="label">40</text>
+<circle cx="122.0" cy="245.0" r="11" class="qubit deg3"/>
+<text x="122.0" y="245.0" class="label">41</text>
+<circle cx="174.0" cy="245.0" r="9" class="qubit deg2"/>
+<text x="174.0" y="245.0" class="label">42</text>
+<circle cx="226.0" cy="245.0" r="11" class="qubit deg3"/>
+<text x="226.0" y="245.0" class="label">43</text>
+<circle cx="278.0" cy="245.0" r="9" class="qubit deg2"/>
+<text x="278.0" y="245.0" class="label">44</text>
+<circle cx="330.0" cy="245.0" r="11" class="qubit deg3"/>
+<text x="330.0" y="245.0" class="label">45</text>
+<circle cx="382.0" cy="245.0" r="9" class="qubit deg2"/>
+<text x="382.0" y="245.0" class="label">46</text>
+<circle cx="434.0" cy="245.0" r="11" class="qubit deg3"/>
+<text x="434.0" y="245.0" class="label">47</text>
+<circle cx="486.0" cy="245.0" r="9" class="qubit deg2"/>
+<text x="486.0" y="245.0" class="label">48</text>
+<circle cx="538.0" cy="245.0" r="11" class="qubit deg3"/>
+<text x="538.0" y="245.0" class="label">49</text>
+<circle cx="590.0" cy="245.0" r="9" class="qubit deg2"/>
+<text x="590.0" y="245.0" class="label">50</text>
+<circle cx="642.0" cy="245.0" r="11" class="qubit deg3"/>
+<text x="642.0" y="245.0" class="label">51</text>
+<circle cx="694.0" cy="245.0" r="9" class="qubit deg2"/>
+<text x="694.0" y="245.0" class="label">52</text>
+<circle cx="746.0" cy="245.0" r="11" class="qubit deg3"/>
+<text x="746.0" y="245.0" class="label">53</text>
+<circle cx="798.0" cy="245.0" r="9" class="qubit deg2"/>
+<text x="798.0" y="245.0" class="label">54</text>
+<circle cx="850.0" cy="245.0" r="9" class="qubit deg2"/>
+<text x="850.0" y="245.0" class="label">55</text>
+<circle cx="226.0" cy="285.0" r="9" class="qubit deg2"/>
+<text x="226.0" y="285.0" class="label">56</text>
+<circle cx="434.0" cy="285.0" r="9" class="qubit deg2"/>
+<text x="434.0" y="285.0" class="label">57</text>
+<circle cx="642.0" cy="285.0" r="9" class="qubit deg2"/>
+<text x="642.0" y="285.0" class="label">58</text>
+<circle cx="850.0" cy="285.0" r="9" class="qubit deg2"/>
+<text x="850.0" y="285.0" class="label">59</text>
+<circle cx="70.0" cy="325.0" r="9" class="qubit deg1"/>
+<text x="70.0" y="325.0" class="label">60</text>
+<circle cx="122.0" cy="325.0" r="11" class="qubit deg3"/>
+<text x="122.0" y="325.0" class="label">61</text>
+<circle cx="174.0" cy="325.0" r="9" class="qubit deg2"/>
+<text x="174.0" y="325.0" class="label">62</text>
+<circle cx="226.0" cy="325.0" r="11" class="qubit deg3"/>
+<text x="226.0" y="325.0" class="label">63</text>
+<circle cx="278.0" cy="325.0" r="9" class="qubit deg2"/>
+<text x="278.0" y="325.0" class="label">64</text>
+<circle cx="330.0" cy="325.0" r="11" class="qubit deg3"/>
+<text x="330.0" y="325.0" class="label">65</text>
+<circle cx="382.0" cy="325.0" r="9" class="qubit deg2"/>
+<text x="382.0" y="325.0" class="label">66</text>
+<circle cx="434.0" cy="325.0" r="11" class="qubit deg3"/>
+<text x="434.0" y="325.0" class="label">67</text>
+<circle cx="486.0" cy="325.0" r="9" class="qubit deg2"/>
+<text x="486.0" y="325.0" class="label">68</text>
+<circle cx="538.0" cy="325.0" r="11" class="qubit deg3"/>
+<text x="538.0" y="325.0" class="label">69</text>
+<circle cx="590.0" cy="325.0" r="9" class="qubit deg2"/>
+<text x="590.0" y="325.0" class="label">70</text>
+<circle cx="642.0" cy="325.0" r="11" class="qubit deg3"/>
+<text x="642.0" y="325.0" class="label">71</text>
+<circle cx="694.0" cy="325.0" r="9" class="qubit deg2"/>
+<text x="694.0" y="325.0" class="label">72</text>
+<circle cx="746.0" cy="325.0" r="11" class="qubit deg3"/>
+<text x="746.0" y="325.0" class="label">73</text>
+<circle cx="798.0" cy="325.0" r="9" class="qubit deg2"/>
+<text x="798.0" y="325.0" class="label">74</text>
+<circle cx="850.0" cy="325.0" r="9" class="qubit deg2"/>
+<text x="850.0" y="325.0" class="label">75</text>
+<circle cx="122.0" cy="365.0" r="9" class="qubit deg2"/>
+<text x="122.0" y="365.0" class="label">76</text>
+<circle cx="330.0" cy="365.0" r="9" class="qubit deg2"/>
+<text x="330.0" y="365.0" class="label">77</text>
+<circle cx="538.0" cy="365.0" r="9" class="qubit deg2"/>
+<text x="538.0" y="365.0" class="label">78</text>
+<circle cx="746.0" cy="365.0" r="9" class="qubit deg2"/>
+<text x="746.0" y="365.0" class="label">79</text>
+<circle cx="70.0" cy="405.0" r="9" class="qubit deg1"/>
+<text x="70.0" y="405.0" class="label">80</text>
+<circle cx="122.0" cy="405.0" r="11" class="qubit deg3"/>
+<text x="122.0" y="405.0" class="label">81</text>
+<circle cx="174.0" cy="405.0" r="9" class="qubit deg2"/>
+<text x="174.0" y="405.0" class="label">82</text>
+<circle cx="226.0" cy="405.0" r="11" class="qubit deg3"/>
+<text x="226.0" y="405.0" class="label">83</text>
+<circle cx="278.0" cy="405.0" r="9" class="qubit deg2"/>
+<text x="278.0" y="405.0" class="label">84</text>
+<circle cx="330.0" cy="405.0" r="11" class="qubit deg3"/>
+<text x="330.0" y="405.0" class="label">85</text>
+<circle cx="382.0" cy="405.0" r="9" class="qubit deg2"/>
+<text x="382.0" y="405.0" class="label">86</text>
+<circle cx="434.0" cy="405.0" r="11" class="qubit deg3"/>
+<text x="434.0" y="405.0" class="label">87</text>
+<circle cx="486.0" cy="405.0" r="9" class="qubit deg2"/>
+<text x="486.0" y="405.0" class="label">88</text>
+<circle cx="538.0" cy="405.0" r="11" class="qubit deg3"/>
+<text x="538.0" y="405.0" class="label">89</text>
+<circle cx="590.0" cy="405.0" r="9" class="qubit deg2"/>
+<text x="590.0" y="405.0" class="label">90</text>
+<circle cx="642.0" cy="405.0" r="11" class="qubit deg3"/>
+<text x="642.0" y="405.0" class="label">91</text>
+<circle cx="694.0" cy="405.0" r="9" class="qubit deg2"/>
+<text x="694.0" y="405.0" class="label">92</text>
+<circle cx="746.0" cy="405.0" r="11" class="qubit deg3"/>
+<text x="746.0" y="405.0" class="label">93</text>
+<circle cx="798.0" cy="405.0" r="9" class="qubit deg2"/>
+<text x="798.0" y="405.0" class="label">94</text>
+<circle cx="850.0" cy="405.0" r="9" class="qubit deg2"/>
+<text x="850.0" y="405.0" class="label">95</text>
+<circle cx="226.0" cy="445.0" r="9" class="qubit deg2"/>
+<text x="226.0" y="445.0" class="label">96</text>
+<circle cx="434.0" cy="445.0" r="9" class="qubit deg2"/>
+<text x="434.0" y="445.0" class="label">97</text>
+<circle cx="642.0" cy="445.0" r="9" class="qubit deg2"/>
+<text x="642.0" y="445.0" class="label">98</text>
+<circle cx="850.0" cy="445.0" r="9" class="qubit deg2"/>
+<text x="850.0" y="445.0" class="label">99</text>
+<circle cx="70.0" cy="485.0" r="9" class="qubit deg1"/>
+<text x="70.0" y="485.0" class="label">100</text>
+<circle cx="122.0" cy="485.0" r="11" class="qubit deg3"/>
+<text x="122.0" y="485.0" class="label">101</text>
+<circle cx="174.0" cy="485.0" r="9" class="qubit deg2"/>
+<text x="174.0" y="485.0" class="label">102</text>
+<circle cx="226.0" cy="485.0" r="11" class="qubit deg3"/>
+<text x="226.0" y="485.0" class="label">103</text>
+<circle cx="278.0" cy="485.0" r="9" class="qubit deg2"/>
+<text x="278.0" y="485.0" class="label">104</text>
+<circle cx="330.0" cy="485.0" r="11" class="qubit deg3"/>
+<text x="330.0" y="485.0" class="label">105</text>
+<circle cx="382.0" cy="485.0" r="9" class="qubit deg2"/>
+<text x="382.0" y="485.0" class="label">106</text>
+<circle cx="434.0" cy="485.0" r="11" class="qubit deg3"/>
+<text x="434.0" y="485.0" class="label">107</text>
+<circle cx="486.0" cy="485.0" r="9" class="qubit deg2"/>
+<text x="486.0" y="485.0" class="label">108</text>
+<circle cx="538.0" cy="485.0" r="11" class="qubit deg3"/>
+<text x="538.0" y="485.0" class="label">109</text>
+<circle cx="590.0" cy="485.0" r="9" class="qubit deg2"/>
+<text x="590.0" y="485.0" class="label">110</text>
+<circle cx="642.0" cy="485.0" r="11" class="qubit deg3"/>
+<text x="642.0" y="485.0" class="label">111</text>
+<circle cx="694.0" cy="485.0" r="9" class="qubit deg2"/>
+<text x="694.0" y="485.0" class="label">112</text>
+<circle cx="746.0" cy="485.0" r="11" class="qubit deg3"/>
+<text x="746.0" y="485.0" class="label">113</text>
+<circle cx="798.0" cy="485.0" r="9" class="qubit deg2"/>
+<text x="798.0" y="485.0" class="label">114</text>
+<circle cx="850.0" cy="485.0" r="9" class="qubit deg2"/>
+<text x="850.0" y="485.0" class="label">115</text>
+<circle cx="122.0" cy="525.0" r="9" class="qubit deg2"/>
+<text x="122.0" y="525.0" class="label">116</text>
+<circle cx="330.0" cy="525.0" r="9" class="qubit deg2"/>
+<text x="330.0" y="525.0" class="label">117</text>
+<circle cx="538.0" cy="525.0" r="9" class="qubit deg2"/>
+<text x="538.0" y="525.0" class="label">118</text>
+<circle cx="746.0" cy="525.0" r="9" class="qubit deg2"/>
+<text x="746.0" y="525.0" class="label">119</text>
+<circle cx="70.0" cy="565.0" r="9" class="qubit deg1"/>
+<text x="70.0" y="565.0" class="label">120</text>
+<circle cx="122.0" cy="565.0" r="11" class="qubit deg3"/>
+<text x="122.0" y="565.0" class="label">121</text>
+<circle cx="174.0" cy="565.0" r="9" class="qubit deg2"/>
+<text x="174.0" y="565.0" class="label">122</text>
+<circle cx="226.0" cy="565.0" r="11" class="qubit deg3"/>
+<text x="226.0" y="565.0" class="label">123</text>
+<circle cx="278.0" cy="565.0" r="9" class="qubit deg2"/>
+<text x="278.0" y="565.0" class="label">124</text>
+<circle cx="330.0" cy="565.0" r="11" class="qubit deg3"/>
+<text x="330.0" y="565.0" class="label">125</text>
+<circle cx="382.0" cy="565.0" r="9" class="qubit deg2"/>
+<text x="382.0" y="565.0" class="label">126</text>
+<circle cx="434.0" cy="565.0" r="11" class="qubit deg3"/>
+<text x="434.0" y="565.0" class="label">127</text>
+<circle cx="486.0" cy="565.0" r="9" class="qubit deg2"/>
+<text x="486.0" y="565.0" class="label">128</text>
+<circle cx="538.0" cy="565.0" r="11" class="qubit deg3"/>
+<text x="538.0" y="565.0" class="label">129</text>
+<circle cx="590.0" cy="565.0" r="9" class="qubit deg2"/>
+<text x="590.0" y="565.0" class="label">130</text>
+<circle cx="642.0" cy="565.0" r="11" class="qubit deg3"/>
+<text x="642.0" y="565.0" class="label">131</text>
+<circle cx="694.0" cy="565.0" r="9" class="qubit deg2"/>
+<text x="694.0" y="565.0" class="label">132</text>
+<circle cx="746.0" cy="565.0" r="11" class="qubit deg3"/>
+<text x="746.0" y="565.0" class="label">133</text>
+<circle cx="798.0" cy="565.0" r="9" class="qubit deg2"/>
+<text x="798.0" y="565.0" class="label">134</text>
+<circle cx="850.0" cy="565.0" r="9" class="qubit deg2"/>
+<text x="850.0" y="565.0" class="label">135</text>
+<circle cx="226.0" cy="605.0" r="9" class="qubit deg2"/>
+<text x="226.0" y="605.0" class="label">136</text>
+<circle cx="434.0" cy="605.0" r="9" class="qubit deg2"/>
+<text x="434.0" y="605.0" class="label">137</text>
+<circle cx="642.0" cy="605.0" r="9" class="qubit deg2"/>
+<text x="642.0" y="605.0" class="label">138</text>
+<circle cx="850.0" cy="605.0" r="9" class="qubit deg2"/>
+<text x="850.0" y="605.0" class="label">139</text>
+<circle cx="70.0" cy="645.0" r="9" class="qubit deg1"/>
+<text x="70.0" y="645.0" class="label">140</text>
+<circle cx="122.0" cy="645.0" r="9" class="qubit deg2"/>
+<text x="122.0" y="645.0" class="label">141</text>
+<circle cx="174.0" cy="645.0" r="9" class="qubit deg2"/>
+<text x="174.0" y="645.0" class="label">142</text>
+<circle cx="226.0" cy="645.0" r="11" class="qubit deg3"/>
+<text x="226.0" y="645.0" class="label">143</text>
+<circle cx="278.0" cy="645.0" r="9" class="qubit deg2"/>
+<text x="278.0" y="645.0" class="label">144</text>
+<circle cx="330.0" cy="645.0" r="9" class="qubit deg2"/>
+<text x="330.0" y="645.0" class="label">145</text>
+<circle cx="382.0" cy="645.0" r="9" class="qubit deg2"/>
+<text x="382.0" y="645.0" class="label">146</text>
+<circle cx="434.0" cy="645.0" r="11" class="qubit deg3"/>
+<text x="434.0" y="645.0" class="label">147</text>
+<circle cx="486.0" cy="645.0" r="9" class="qubit deg2"/>
+<text x="486.0" y="645.0" class="label">148</text>
+<circle cx="538.0" cy="645.0" r="9" class="qubit deg2"/>
+<text x="538.0" y="645.0" class="label">149</text>
+<circle cx="590.0" cy="645.0" r="9" class="qubit deg2"/>
+<text x="590.0" y="645.0" class="label">150</text>
+<circle cx="642.0" cy="645.0" r="11" class="qubit deg3"/>
+<text x="642.0" y="645.0" class="label">151</text>
+<circle cx="694.0" cy="645.0" r="9" class="qubit deg2"/>
+<text x="694.0" y="645.0" class="label">152</text>
+<circle cx="746.0" cy="645.0" r="9" class="qubit deg2"/>
+<text x="746.0" y="645.0" class="label">153</text>
+<circle cx="798.0" cy="645.0" r="9" class="qubit deg2"/>
+<text x="798.0" y="645.0" class="label">154</text>
+<circle cx="850.0" cy="645.0" r="9" class="qubit deg2"/>
+<text x="850.0" y="645.0" class="label">155</text>
+<rect x="755" y="65" width="150" height="115" fill="white" stroke="#dee2e6" stroke-width="1" rx="6" opacity="0.95"/>
+<text x="765" y="83" class="legend-text" font-weight="600">Qubit Connectivity</text>
+<circle cx="775" cy="105" r="8" class="qubit deg1"/>
+<text x="791" y="105" class="legend-text" dominant-baseline="central">Degree 1 (edge): 8</text>
+<circle cx="775" cy="127" r="8" class="qubit deg2"/>
+<text x="791" y="127" class="legend-text" dominant-baseline="central">Degree 2 (chain): 100</text>
+<circle cx="775" cy="149" r="10" class="qubit deg3"/>
+<text x="791" y="149" class="legend-text" dominant-baseline="central">Degree 3 (hub): 48</text>
+<rect x="0" y="682" width="920" height="38" fill="#f1f3f4"/>
+<line x1="0" y1="682" x2="920" y2="682" stroke="#dee2e6" stroke-width="1"/>
+<text x="50" y="705" class="stats-text">156 Qubits</text>
+<text x="180" y="705" class="stats-text">176 Coupling Edges</text>
+<text x="360" y="705" class="stats-text">Native Gates: CZ, SX, RZ, X</text>
+<text x="590" y="705" class="stats-text">Gate Time: 32 ns (1Q), 68–108 ns (2Q)</text>
+</svg>
