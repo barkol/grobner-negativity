@@ -7,7 +7,7 @@ Supplementary code and data for:
 
 > **"Spin chirality across quantum state copies detects hidden entanglement"**
 > Patrycja Tulewicz and Karol Bartkiewicz
-> *Nature Physics* (2026)
+> (2026)
 
 ## Overview
 
@@ -164,9 +164,9 @@ run_experiment(mode="simulator")
 @article{tulewicz2026chirality,
   title={Spin chirality across quantum state copies detects hidden entanglement},
   author={Tulewicz, Patrycja and Bartkiewicz, Karol},
-  journal={Nature Physics},
+  journal={},
   year={2026},
-  publisher={Nature Publishing Group}
+  publisher={}
 }
 ```
 
